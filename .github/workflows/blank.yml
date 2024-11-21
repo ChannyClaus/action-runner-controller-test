@@ -19,7 +19,7 @@ jobs:
         run: echo Hello, world!
 
   large:
-    runs-on: arc-runner-set-large
+    runs-on: large-arc-runner-set
     steps:
       - uses: actions/checkout@v4
 
