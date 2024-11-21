@@ -9,7 +9,7 @@ helm uninstall large-arc-runner-set \
     --namespace large-arc-runners \
     --ignore-not-found
 helm uninstall arc \
-    --wait
+    --wait \
     --namespace arc-systems \
     --ignore-not-found
 
